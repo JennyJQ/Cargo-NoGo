@@ -50,18 +50,12 @@ print(filtered_df.dtypes)
 
 
 #filtered_df.loc[len(filtered_df.index), i] = filtered_df.loc[len(filtered_df.index), i] + 0.01
-if(random.randint(1,101) <= 15):
+if(random.randint(1,101) <= 50):
         filtered_df['DriverLat'] = filtered_df['Latitude'] + 0.01
 else:
         filtered_df['DriverLat'] = filtered_df['Latitude']
 
-#i = 0 
-#filtered_df.loc[i:i+5, 6] = filtered_df.loc[i:i+5, 6] + 0.01
-#++i
-if(random.randint(1,101) <= 15):
-        filtered_df['DriverLong'] = filtered_df['Longitude'] + 0.01
-else:
-        filtered_df['DriverLong'] = filtered_df['Longitude']
+filtered_df['DriverLong'] = filtered_df['Longitude']
 
 
 print('---------------------------')
@@ -78,7 +72,3 @@ for i in range(0, 25, 5):
 	# TODO: append to end of CSV
 	#time.sleep(5)
 	#print('*->')
-
-#truck_raw_df = pd.read_csv("/home/souvik/Documents/py_testenv/Deltahacks/ITM_20190121_test.csv", sep=",")
-
-
