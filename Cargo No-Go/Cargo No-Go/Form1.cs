@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +16,6 @@ namespace Cargo_No_Go
         public Cargo_No_Go()
         {
             InitializeComponent();
-            Stolen_Timer.Interval = 3000;
         }
 
         private List<string> id = new List<string>();
@@ -48,7 +47,7 @@ namespace Cargo_No_Go
             foreach (string line in dataList)
             {
                 string[] linearr = line.Split(',');
-                truckList.Add(linearr[1]);
+                truckList.Add(linearr[2]);
             }
             
             List<int> lastOccurrenceList = new List<int>();
@@ -58,17 +57,17 @@ namespace Cargo_No_Go
 
             for (int i = 0; i < lastOccurrenceList.Count; i++)
             {
-                DateTime dateTime = DateTime.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(7));
+                DateTime dateTime = DateTime.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(8));
 
-                if (Math.Abs(float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(8)) - float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(15))) > 0.009)
+                if (Math.Abs(float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(9)) - float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(16))) > 0.009)
                     MessageBox.Show($"Truck with device serial number {id[i]} has been stolen!", "Theft Reported", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                else if(Math.Abs(float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(9)) - float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(16))) > 0.009)
+                else if(Math.Abs(float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(10)) - float.Parse(dataList[lastOccurrenceList[i]].Split(',').ElementAt(17))) > 0.009)
                     MessageBox.Show($"Truck with device serial number {id[i]} has been stolen!", "Theft Reported", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 else if (DateTime.Now.Ticks - dateTime.Ticks > 36010000000)
                     MessageBox.Show($"Truck with device serial number {id[i]} has had its GPS sensor destroyed or is undergoing maintenance.", "Suspected Theft", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 //else if(off route)
                 //{
-                //stolen
+                    //stolen
                 //}
             }
         }
