@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cargo No-Go", "Cargo No-Go\Cargo No-Go.csproj", "{A532EA81-2A52-4C10-A7EF-6AFED51A6DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A532EA81-2A52-4C10-A7EF-6AFED51A6DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A532EA81-2A52-4C10-A7EF-6AFED51A6DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A532EA81-2A52-4C10-A7EF-6AFED51A6DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A532EA81-2A52-4C10-A7EF-6AFED51A6DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16170684-F613-4EAD-8B9F-1F191A58C589}
+	EndGlobalSection
+EndGlobal

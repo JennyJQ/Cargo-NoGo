@@ -1,0 +1,10 @@
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\bin\Debug\Cargo No-Go.exe.config
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\bin\Debug\Cargo No-Go.exe
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\bin\Debug\Cargo No-Go.pdb
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo No-Go.csprojAssemblyReference.cache
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo_No_Go.Cargo_No_Go.resources
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo_No_Go.Properties.Resources.resources
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo No-Go.csproj.GenerateResource.cache
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo No-Go.csproj.CoreCompileInputs.cache
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo No-Go.exe
+C:\Users\priya\source\repos\Cargo No-Go\Cargo No-Go\obj\Debug\Cargo No-Go.pdb
